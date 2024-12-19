@@ -13,7 +13,7 @@ let info = {
   links: {
     github: "https://github.com/phanduc172/",
     resume:
-      "https://github.com/phanduc172/portfolio-template/blob/master/src/assets/pdfs/Resume.pdf"
+      "https://drive.google.com/file/d/1PiK0Dc0eFV7ttKmLWRkqf51kleyvNxEu/view?usp=sharing"
   },
   education: [
     {
@@ -35,50 +35,23 @@ let info = {
   ],
   experience: [
     {
-      name: "Cyberinfrastructure for Network Science Center",
-      place: "Bloomington, Indiana",
-      date: "Jun, 2020 - Present",
-      position: "Research Assistant; Full Stack Developer",
+      name: "Digital Agricultural Cooperative",
+      place: "Hue, VietNam",
+      date: "August, 2024 - Present",
+      position: "Intern",
       description:
-        "Worked as a Software Developer for the Human BioMolecular Atlas Program (funded by the NIH), building innovative visualization tools to envision large biomedical datasets.",
-      skills: ["Angular", "Node.js", "Vega", "Shell", "Typescript"]
+        "Work as a system developer using Vue Framework to build user interfaces for projects.",
+      skills: ["VueJS", "Javascript"]
     },
     {
-      name: "Skylark Drones",
-      place: "Bangalore, India",
-      date: "Jan, 2019 - Jun, 2021",
-      position: "Full Stack Web Developer",
+      name: "Brycen LLC",
+      place: "Hue, VietNam",
+      date: "April, 2024 - June, 2024",
+      position: "Intern",
       description:
-        "Worked as a full stack web developer, implementing various features and fixing bugs for Skylark Drones’ central management system called Operations Portal and Data Mining Server.",
-      skills: ["MongoDB", "Flask", "VueJS", "NGINX"]
+        "Worked as an in-house system developer using Java and Spring Boot framework combined with Angular Framework for UI.",
+      skills: ["Angular", "Java", "Springboot", "Sourcetree", "Typescript"]
     },
-    {
-      name: "Hridayam Soft Solutions",
-      place: "Mumbai, India",
-      date: "May, 2018 - Jun, 2018",
-      position: "Computer Vision Engineer",
-      description:
-        "Scripted an algorithm for extracting information (such as date, invoice number etc.) from scanned images of invoices, built a web interface for using the former mentioned machine.",
-      skills: ["Python", "OpenCV", "PyTesseract", "AngularJS", "NodeJS"]
-    },
-    {
-      name: "Elementail Labs",
-      place: "Mumbai, India",
-      date: "May, 2017 - July, 2017",
-      position: "Full Stack Web Developer",
-      description:
-        "Implemented various contracts and deployed them on the upcoming blockchain technology - Ethereum, while also working as a MEAN stack web developer for Elemential Labs’ website.",
-      skills: ["MongoDB", "AngularJS", "NodeJS", "ExpressJS"]
-    },
-    {
-      name: "Viteos Capital Market Services s",
-      place: "Mumbai, India",
-      date: "May, 2016 - July, 2016",
-      position: "Software Developer",
-      description:
-        "Evaluated technologies, and building proof of concept/prototype solutions for trade processing and mathematical model based evaluations, while working in the software development team.",
-      skills: ["C#", "C++", "Visual Studio"]
-    }
   ],
   skills: [
     {
@@ -93,20 +66,20 @@ let info = {
       ],
       icon: "fa fa-code"
     },
-    {
-      title: "data frameworks",
-      info: [
-        "Keras",
-        "Numpy",
-        "Pandas",
-        "OpenCV",
-        "SciPy",
-        "Sklearn",
-        "LibROSA",
-        "Pillow"
-      ],
-      icon: "fa fa-cubes"
-    },
+    // {
+    //   title: "data frameworks",
+    //   info: [
+    //     "Keras",
+    //     "Numpy",
+    //     "Pandas",
+    //     "OpenCV",
+    //     "SciPy",
+    //     "Sklearn",
+    //     "LibROSA",
+    //     "Pillow"
+    //   ],
+    //   icon: "fa fa-cubes"
+    // },
     {
       title: "Web Technologies",
       info: ["HTML", "CSS", "Javascript", "Typescript", "Vue", "React", "Node",],
@@ -135,100 +108,6 @@ let info = {
     }
   ],
   portfolio: [
-    {
-      name: "Sheet Recognizer",
-      pictures: [
-        {
-          img: require("./src/assets/portfolio/msr/one.png")
-        },
-        {
-          img: require("./src/assets/portfolio/msr/two.png")
-        },
-        {
-          img: require("./src/assets/portfolio/msr/three.png")
-        },
-        {
-          img: require("./src/assets/portfolio/msr/four.png")
-        }
-      ],
-      technologies: ["Computer Vision", "OpenCV", "AI", "Flask", "Sockets"],
-      category: "Algorithm",
-      date: "Jan, 2020 - Mar, 2020",
-      github:
-        "https://github.com/hrishikeshpaul/music-sheet-recognizer-backend",
-      visit: "https://github.com/hrishikeshpaul/music-sheet-recognizer-backend",
-      description:
-        "Music Sheet Recognizer (MSR) highlights basic Image Processing and Recognition. Like Optical Character Recognition, this tool is used to detect music notes and rests. It makes use of basic Computer Vision techniques such as Convolution, Edge Detections, Hough Transforms and Template Matching to detect notes and rests on a music sheet. "
-    },
-    {
-      name: "NoQ Job Portal",
-      pictures: [
-        {
-          img: require("./src/assets/portfolio/noq/logo.png")
-        },
-        {
-          img: require("./src/assets/portfolio/noq/one.png")
-        },
-        {
-          img: require("./src/assets/portfolio/noq/two.png")
-        },
-        {
-          img: require("./src/assets/portfolio/noq/three.png")
-        },
-        {
-          img: require("./src/assets/portfolio/noq/four.png")
-        }
-      ],
-      technologies: ["Node", "Vue", "Express", "MongoDB", "Heroku"],
-      category: "Website",
-      date: "Sep, 2019 - Dec  , 2019",
-      github: "https://github.com/hrishikeshpaul/noq",
-      visit: "https://noq-client.herokuapp.com/",
-      description:
-        "No Q, is a revolutionary tool which allows for both employers and students to skip the hassle seen in modern day career fairs. For the students, there is an intuitive profile builder where you can add things like education, skills, certifications, honors, and experiences. No Q is not only good for students, but employers as well! A common problem at modern career fairs is the number of unqualified candidates who waste their time when they could be chatting with someone else. With No Q, only the students who meet the positions’ criteria will be able to apply, and from there the recruiter can invite them to talk in more detail at the career fair through our intuitive messaging system."
-    },
-    {
-      name: "POST",
-      pictures: [
-        {
-          img: require("./src/assets/portfolio/post/one.png")
-        },
-        {
-          img: require("./src/assets/portfolio/post/two.png")
-        }
-      ],
-      technologies: [
-        "Markov Models",
-        "Python",
-        "Artificial Intelligence",
-        "Vue",
-        "Heroku"
-      ],
-      category: "Algorithm",
-      github: "https://github.com/hrishikeshpaul/pos-tagger",
-      date: "Oct, 2019 - Nov, 2019",
-      visit: "https://post-client.herokuapp.com/",
-      description:
-        "Post is a simple algorithm that was developed to tagging a word corresponding to its part of speech. The algorithm makes of a probabilisitic approach along with some randomness, together which forms the basis of an algorithm called Gibbs Sampling."
-    },
-    {
-      name: "Suicide Analyzer",
-      pictures: [
-        {
-          img: require("./src/assets/portfolio/suicide/suicide-analyzer.png")
-        },
-        {
-          img: require("./src/assets/portfolio/suicide/suicide2-original.png")
-        }
-      ],
-      technologies: ["Node", "Angular", "Express", "Leaflet", "Pandas"],
-      category: "Website",
-      date: "Oct, 2018 - Nov, 2018",
-      github: "https://github.com/hrishikeshpaul/whodata",
-      visit: "https://skylarktiral.herokuapp.com/",
-      description:
-        "This is a web application, uses a map to demonstrate the number suicides committed around the globe, according to a dataset provided by the WHO. The application consists of a Leaflet map that colors every nation, based on the number of suicides that have been committed in that country, for that year. It provides us with the capability to select the data as well as the continent."
-    },
     {
       name: "Sentiment Analyzer",
       pictures: [
@@ -305,133 +184,133 @@ let info = {
         "Nutricare is a basic health website for users(patients) to input nutrient intake data and researchers to analyse the data with the help of graphs and tables. A researcher can conduct studies on N different subjects (patient) for a particular problem statement. Typically, a researcher will enter food item consumed by subjects over a period of time (Ex - 24hrs, or 1 week, or 1 month etc)."
     }
   ],
-  portfolio_design: [
-    {
-      name: "Guituna",
-      title: "Guituna - Mockup Design",
-      pictures: [
-        {
-          img: require("./src/assets/designs/coursera1/MoodBoard.png"),
-          title: "MoodBoard"
-        },
-        {
-          img: require("./src/assets/designs/coursera1/Mockups 1.png"),
-          title: "Mockups 1"
-        },
-        {
-          img: require("./src/assets/designs/coursera1/Mockups 2.png"),
-          title: "Mockups 2"
-        },
-        {
-          img: require("./src/assets/designs/coursera1/App Elements.png"),
-          title: "App Elements"
-        }
-      ],
-      technologies: ["XD", "Illustrator"],
-      category: "Visual Design",
-      github: "",
-      date: "May, 2020 - Jun, 2020",
-      visit: "",
-      description:
-        "Guituna is a simple, lightweight and intuitive guitar tuner, that provides different modes of guitars based on your usage. You can either select a specific string to tune, or free tune your guitar based on the frequency shown on the meter. Guituna also provides a handful of different tunings to help explore various tuning paradigms. There is also an array of settings that can be configured to your liking based on the devices you're using. <br/><br/>The interface aims to highlight the use of a minimal design and providing just enough controls to make for a great tuner, while exposing various possibilities of guitarists to explore."
-    },
-    {
-      name: "Pantree",
-      title: "Pantree - Mockup Design",
-      pictures: [
-        {
-          img: require("./src/assets/designs/pantree/MoodBoard.png"),
-          title: "Moodboard"
-        },
-        {
-          img: require("./src/assets/designs/pantree/1.png"),
-          title: "Mockups 1"
-        },
-        {
-          img: require("./src/assets/designs/pantree/2.png"),
-          title: "Mockups 2"
-        }
-      ],
-      technologies: ["XD", "Illustrator"],
-      category: "Visual Design",
-      github: "",
-      date: "May, 2020 - July, 2020",
-      visit: "",
-      description:
-        "Pantree is a recipiece finding and recommending application. It is often the case that you have run to your closest grocery store just to pick up one item that is missing in your kitchen. Pantree keeps a track of all your ingredients, and suggests recipes based on your meal preferences and past recipes. <br/><br/> The goal of the interface is to keep it similar to various recipe/food apps to reduce the learning required by the user, but also provide a smooth interface for users to seemlessly browse through recipes and ingredients."
-    },
-    {
-      name: "Bunder",
-      title: "Bunder - MVP Proposal",
-      pictures: [
-        {
-          img: require("./src/assets/designs/bunder/Moodboard.png"),
-          title: "Moodboard"
-        },
-        {
-          img: require("./src/assets/designs/bunder/Mockup 1.png"),
-          title: "Mockup 1"
-        },
-        {
-          img: require("./src/assets/designs/bunder/Mockup 2.png"),
-          title: "Mockup 2"
-        },
-        {
-          img: require("./src/assets/designs/bunder/Mockup 3.png"),
-          title: "Mockup 3"
-        },
-        {
-          img: require("./src/assets/designs/bunder/Market Research 1.png"),
-          title: "Market Research 1"
-        },
-        {
-          img: require("./src/assets/designs/bunder/Market Research 2.png"),
-          title: "Market Research 2"
-        }
-      ],
-      technologies: ["XD", "Illustrator"],
-      category: "Visual Design",
-      github: "",
-      date: "May, 2020 - July, 2020",
-      visit: "",
-      description:
-        "Bunder is an intuitive web platform for micro-communities to share sensitive data with privacy within the community and allow engagement amongst them. Our aim is two-fold - Co-existing and Collaboration. The former is executed by providing a platform for communities that are geographically positioned in the same proximity (Housing societies, Dorms, Apartment Complexes) to have and share data (exact apartment addresses, phone number, apartment housing rules, individuals tested positive for COVID-19) in an exclusive platform. The latter is to give these people in the community the ability to carry out a task you are physically or remotely unable to do; with dignity and ease."
-    }
-  ],
-  recommendations: [
-    {
-      title:
-        "In his internship, Hrishikesh has demonstrated excellent learning ability, and with a dedicated, task oriented approach, he was able to complete his assignment ahead of time.",
-      author: "Ushanas Shastri",
-      position: "CTO",
-      company: "Viteos Capital Market Services",
-      location: "Mumbai"
-    },
-    {
-      title:
-        "I feel his budding leadership abilities will become even more effective in a diverse and challenging environment.",
-      author: "Anil Dukkipatty",
-      position: "CTO",
-      company: "Elemential Labs",
-      location: "Mumbai"
-    },
-    {
-      title:
-        "He has gained great knowledge and experience of SDE, and has learned ot develop the application keeping in mind the client's perpective and also making it creative.",
-      author: "Chintan Shah",
-      position: "Director",
-      company: "Hridayam Soft Solution",
-      location: "Mumbai"
-    },
-    {
-      title:
-        "During the course of his employment we have found him to be a self-started who was motivated, duty bound and a highly commited team player.",
-      author: "Mrinal Pai",
-      position: "Co-Founder & Director",
-      company: "Skylark Drones",
-      location: "Bangalore"
-    }
-  ]
+  // portfolio_design: [
+  //   {
+  //     name: "Guituna",
+  //     title: "Guituna - Mockup Design",
+  //     pictures: [
+  //       {
+  //         img: require("./src/assets/designs/coursera1/MoodBoard.png"),
+  //         title: "MoodBoard"
+  //       },
+  //       {
+  //         img: require("./src/assets/designs/coursera1/Mockups 1.png"),
+  //         title: "Mockups 1"
+  //       },
+  //       {
+  //         img: require("./src/assets/designs/coursera1/Mockups 2.png"),
+  //         title: "Mockups 2"
+  //       },
+  //       {
+  //         img: require("./src/assets/designs/coursera1/App Elements.png"),
+  //         title: "App Elements"
+  //       }
+  //     ],
+  //     technologies: ["XD", "Illustrator"],
+  //     category: "Visual Design",
+  //     github: "",
+  //     date: "May, 2020 - Jun, 2020",
+  //     visit: "",
+  //     description:
+  //       "Guituna is a simple, lightweight and intuitive guitar tuner, that provides different modes of guitars based on your usage. You can either select a specific string to tune, or free tune your guitar based on the frequency shown on the meter. Guituna also provides a handful of different tunings to help explore various tuning paradigms. There is also an array of settings that can be configured to your liking based on the devices you're using. <br/><br/>The interface aims to highlight the use of a minimal design and providing just enough controls to make for a great tuner, while exposing various possibilities of guitarists to explore."
+  //   },
+  //   {
+  //     name: "Pantree",
+  //     title: "Pantree - Mockup Design",
+  //     pictures: [
+  //       {
+  //         img: require("./src/assets/designs/pantree/MoodBoard.png"),
+  //         title: "Moodboard"
+  //       },
+  //       {
+  //         img: require("./src/assets/designs/pantree/1.png"),
+  //         title: "Mockups 1"
+  //       },
+  //       {
+  //         img: require("./src/assets/designs/pantree/2.png"),
+  //         title: "Mockups 2"
+  //       }
+  //     ],
+  //     technologies: ["XD", "Illustrator"],
+  //     category: "Visual Design",
+  //     github: "",
+  //     date: "May, 2020 - July, 2020",
+  //     visit: "",
+  //     description:
+  //       "Pantree is a recipiece finding and recommending application. It is often the case that you have run to your closest grocery store just to pick up one item that is missing in your kitchen. Pantree keeps a track of all your ingredients, and suggests recipes based on your meal preferences and past recipes. <br/><br/> The goal of the interface is to keep it similar to various recipe/food apps to reduce the learning required by the user, but also provide a smooth interface for users to seemlessly browse through recipes and ingredients."
+  //   },
+  //   {
+  //     name: "Bunder",
+  //     title: "Bunder - MVP Proposal",
+  //     pictures: [
+  //       {
+  //         img: require("./src/assets/designs/bunder/Moodboard.png"),
+  //         title: "Moodboard"
+  //       },
+  //       {
+  //         img: require("./src/assets/designs/bunder/Mockup 1.png"),
+  //         title: "Mockup 1"
+  //       },
+  //       {
+  //         img: require("./src/assets/designs/bunder/Mockup 2.png"),
+  //         title: "Mockup 2"
+  //       },
+  //       {
+  //         img: require("./src/assets/designs/bunder/Mockup 3.png"),
+  //         title: "Mockup 3"
+  //       },
+  //       {
+  //         img: require("./src/assets/designs/bunder/Market Research 1.png"),
+  //         title: "Market Research 1"
+  //       },
+  //       {
+  //         img: require("./src/assets/designs/bunder/Market Research 2.png"),
+  //         title: "Market Research 2"
+  //       }
+  //     ],
+  //     technologies: ["XD", "Illustrator"],
+  //     category: "Visual Design",
+  //     github: "",
+  //     date: "May, 2020 - July, 2020",
+  //     visit: "",
+  //     description:
+  //       "Bunder is an intuitive web platform for micro-communities to share sensitive data with privacy within the community and allow engagement amongst them. Our aim is two-fold - Co-existing and Collaboration. The former is executed by providing a platform for communities that are geographically positioned in the same proximity (Housing societies, Dorms, Apartment Complexes) to have and share data (exact apartment addresses, phone number, apartment housing rules, individuals tested positive for COVID-19) in an exclusive platform. The latter is to give these people in the community the ability to carry out a task you are physically or remotely unable to do; with dignity and ease."
+  //   }
+  // ],
+  // recommendations: [
+  //   {
+  //     title:
+  //       "In his internship, Hrishikesh has demonstrated excellent learning ability, and with a dedicated, task oriented approach, he was able to complete his assignment ahead of time.",
+  //     author: "Ushanas Shastri",
+  //     position: "CTO",
+  //     company: "Viteos Capital Market Services",
+  //     location: "Mumbai"
+  //   },
+  //   {
+  //     title:
+  //       "I feel his budding leadership abilities will become even more effective in a diverse and challenging environment.",
+  //     author: "Anil Dukkipatty",
+  //     position: "CTO",
+  //     company: "Elemential Labs",
+  //     location: "Mumbai"
+  //   },
+  //   {
+  //     title:
+  //       "He has gained great knowledge and experience of SDE, and has learned ot develop the application keeping in mind the client's perpective and also making it creative.",
+  //     author: "Chintan Shah",
+  //     position: "Director",
+  //     company: "Hridayam Soft Solution",
+  //     location: "Mumbai"
+  //   },
+  //   {
+  //     title:
+  //       "During the course of his employment we have found him to be a self-started who was motivated, duty bound and a highly commited team player.",
+  //     author: "Mrinal Pai",
+  //     position: "Co-Founder & Director",
+  //     company: "Skylark Drones",
+  //     location: "Bangalore"
+  //   }
+  // ]
 };
 
 export default info;

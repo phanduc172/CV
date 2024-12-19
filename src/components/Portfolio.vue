@@ -54,7 +54,7 @@
           </div>
         </v-tab>
 
-        <v-tab title="Design">
+        <!-- <v-tab title="Design">
           <div class="row">
             <div
               v-for="(design, idx) in desgin_info"
@@ -106,7 +106,7 @@
             </div>
           </div>
           <br />
-        </v-tab>
+        </v-tab> -->
       </vue-tabs>
     </div>
     <transition name="modal">

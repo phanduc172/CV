@@ -1,4 +1,4 @@
-<template>
+<!-- <template>
   <div :class="{ 'bg-white': !nightMode, 'bg-dark': nightMode }" class="p-st">
     <div class="container py-4">
       <div
@@ -91,4 +91,4 @@ export default {
   font-weight: 400;
   text-align: right;
 }
-</style>
+</style> -->
